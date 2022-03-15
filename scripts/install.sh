@@ -113,7 +113,7 @@ service 3proxy start
 EOF
 
 bash /etc/rc.local
-
+echo "aaa"
 gen_proxy_file_for_user
-
+echo "bbb"
 upload_proxy
